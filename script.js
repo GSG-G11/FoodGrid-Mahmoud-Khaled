@@ -121,6 +121,10 @@ function mealcard(obj) {
 }
 
 function addRecipe(obj) {
+
+if(recipeContainer.children.length===0){
+
+
   const recipeDiv = document.createElement("div");
   const closeBtn = document.createElement("a");
   const i = document.createElement("i");
@@ -143,7 +147,12 @@ function addRecipe(obj) {
 
   closeBtn.onclick = () => {
     recipeDiv.remove();
+    recipeContainer.style.display="none"
   };
+
+
+}
+    
 }
 
 fetch(countryUrl, renderCountries);
