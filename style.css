@@ -1,243 +1,232 @@
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gideon Roman', cursive;
-    }
-    
-    /* search meals */
-
-    .search-container{
-        margin-top: 10px;
-    }
-
-    .home-icon{
-        margin: 100px;
-        font-size: 3rem;
-        color: black;
-    }
-
-    .btn{
-        cursor: pointer;
-        outline: 0;
-        font-size: 1.05rem;
-    }
-
-    .title{
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
- 
-    .meal-wrapper{
-        max-width: 1280px;
-        margin: 0 auto;
-        padding: 2rem;
-        background-color: #fff;
-        text-align: center;
-    }
-
-    .meal-search{
-        margin: 2rem 0;
-    }
-
-    .meal-search cite{
-        font-size: 1rem;
-    }
-
-    .meal-search-box{
-        width: 100%;
-        height: 40px;
-        margin: 1.2rem 40%;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .search-control,
-    .search-btn{
-        width: 100%;
-    }
-
-    .search-control{
-        padding: 0 1rem;
-        font-size: 1.1rem;
-        font-family: inherit;
-        outline: 0;
-        border: 1px solid rgb(0, 0, 0);
-        color: aqua;
-        border-top-left-radius: 2rem;
-        border-bottom-left-radius: 2rem;
-    }
-
-    .search-control::placeholder{
-        color: aquamarine;
-    }
-
-    .search-btn{
-        width: 55px;
-        height: 40px;
-        font-size: 1.8;
-        background-color: #F1D9B5;
-        color: aliceblue;
-        border: none;
-        border-top: inherit;
-        border-bottom: inherit;
-    }
-
-    .search-btn:hover{
-        background-color: blue;
-    }
-
-
-
-
-    /* meals cards */
-    .meals-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    }
-
-    .meal{
-        border: 8px solid #F1D9B5;
-height: 300px;
-width: 300px;
-border-radius: 15px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-margin: 10px;
-    }
-
-    .meal-photo{
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-    }
-
-    .meal-name{
-        font-size: 25px;
-    }
-
-
-    /* contry cuisimn */
-    .sec1{
-    
-    background-color: #f3e6d0;
-    border-bottom-left-radius:30px ;
-    border-bottom-right-radius:30px ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gideon Roman", cursive;
 }
-    
-    h1{
 
-        margin:0px 10px;
-        font-size: 40px;
-        font-family: 'Comforter', cursive;
-        padding: 20px;
-    }
-    
-    .head-content{
-    
-    display: flex;
-    margin: 10px;
-    
-    }
-    
-    
-    .para{
+/* search meals */
+
+.search-container {
+  margin-top: 10px;
+}
+
+.home-icon {
+  margin: 10px;
+  font-size: 3rem;
+  color: black;
+  padding: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.meal-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.meal-search {
+  margin: 2rem 0;
+}
+
+.meal-search cite {
+  font-size: 1rem;
+}
+
+.meal-search-box {
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-control,
+.search-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.search-content {
+  height: 100%;
+}
+
+.search-control {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  font-family: inherit;
+  outline: 0;
+  border: 1px solid rgb(0, 0, 0);
+  color: aqua;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.search-control::placeholder {
+  color: aquamarine;
+}
+
+.search-btn {
+  width: 55px;
+  height: 40px;
+  font-size: 1.8;
+  background-color: #f1d9b5;
+  color: aliceblue;
+  border: none;
+  border-top: inherit;
+  border-bottom: inherit;
+}
+
+.search-btn:hover {
+  background-color: blue;
+}
+
+/* meals cards */
+.meals-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.meal {
+  border: 8px solid #f1d9b5;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.meal-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.meal-name {
+  font-size: 25px;
+}
+
+/* contry cuisimn */
+.sec1 {
+  background-color: #f3e6d0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+h1 {
+  margin: 0px 10px;
+  font-size: 40px;
+  font-family: "Comforter", cursive;
+  padding: 20px;
+}
+
+.head-content {
+  display: flex;
+  margin: 10px;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.fav {
+  text-align: center;
+  margin: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.fav p {
+  background-color: #f1d9b5;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.countries {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cuisine {
+  border: 8px solid #f1d9b5;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.country {
+  font-size: 25px;
+}
+
+.go-meals {
+  background-color: #f1d9b5;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.go-meals:hover {
+  border: 8px solid #f1d9b5;
+  color: rgb(252, 252, 250);
+}
+
+@media screen and (max-width: 600px) {
+  .countries {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    font-size: 30px;
-    
-    }
-    
-    img{
-        height: 100%;
-        width: 100%;
-    }
-    
-    .fav{
-text-align: center;
-margin: 10px;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 30px;
-    }
+  }
 
-    .fav p{
+  .cuisine {
+    margin: 10px;
+  }
 
-        background-color: #F1D9B5;
-        padding: 10px;
-        height: 70px;
-        display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 15px;
-    }
+  .para {
+    font-size: 20px;
+  }
 
-    .countries{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-
-    }
-
-
-    .cuisine{
-border: 8px solid #F1D9B5;
-height: 300px;
-width: 300px;
-border-radius: 15px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-margin: 10px;
-
-    }
-
-
-    .country{
-
-        font-size: 25px;
-    }
-
-
-    .go-meals{
-
-background-color:#F1D9B5 ;
-height: 50px;
-width: 150px;
-border-radius: 10px;
-font-size: 20px;
-
-    }
-    .go-meals:hover{
-        border: 8px solid #F1D9B5;
-        color: rgb(252, 252, 250);
-
-    }
-
-    @media screen and (max-width: 600px) {
-        
-        .countries{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-                }
-
-
-                .cuisine{
-                    margin: 10px;
-                }
-      }
+  .fav p {
+    font-size: 20px;
+  }
+}
