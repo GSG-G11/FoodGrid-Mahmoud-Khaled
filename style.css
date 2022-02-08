@@ -67,7 +67,7 @@ align-items: center;
 border-radius: 15px;
     }
 
-    .countrys{
+    .countries{
 display: flex;
 justify-content: space-around;
 
@@ -111,7 +111,7 @@ font-size: 20px;
 
     @media screen and (max-width: 600px) {
         
-        .countrys{
+        .countries{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
