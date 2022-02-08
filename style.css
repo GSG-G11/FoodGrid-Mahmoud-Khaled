@@ -123,6 +123,21 @@
   font-size: 25px;
 }
 
+
+
+
+.get-recipe {
+    background-color: #f1d9b5;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .get-recipe:hover {
+    border: 8px solid #f1d9b5;
+    color: rgb(252, 252, 250);
+  }
+
 /* contry cuisimn */
 .sec1 {
   background-color: #f3e6d0;
@@ -134,7 +149,7 @@ h1 {
   margin: 0px 10px;
   font-size: 40px;
   font-family: "Comforter", cursive;
-  padding: 20px;
+  padding: 10px;
 }
 
 .head-content {
@@ -229,4 +244,32 @@ img {
   .fav p {
     font-size: 20px;
   }
+}
+
+body {
+  position: relative;
+}
+.recipe-card {
+  height: 50%;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #f1d9b5;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+left: 10%;
+  display: none;
+}
+
+.recipe {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+}
+
+.recipe a {
+  color: black;
 }
