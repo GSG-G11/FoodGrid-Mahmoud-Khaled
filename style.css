@@ -7,6 +7,86 @@
     box-sizing: border-box;
     font-family: 'Gideon Roman', cursive;
     }
+
+    .container{
+        margin-top: 10px;
+    }
+
+    .home-icon{
+        margin: 100px;
+        font-size: 3rem;
+    }
+
+    .btn{
+        cursor: pointer;
+        outline: 0;
+        font-size: 1.05rem;
+    }
+
+    .title{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+ 
+    .meal-wrapper{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .meal-search{
+        margin: 2rem 0;
+    }
+
+    .meal-search cite{
+        font-size: 1rem;
+    }
+
+    .meal-search-box{
+        width: 100%;
+        height: 40px;
+        margin: 1.2rem 40%;
+        display: flex;
+        align-items: stretch;
+    }
+
+    .search-control,
+    .search-btn{
+        width: 100%;
+    }
+
+    .search-control{
+        padding: 0 1rem;
+        font-size: 1.1rem;
+        font-family: inherit;
+        outline: 0;
+        border: 1px solid rgb(0, 0, 0);
+        color: aqua;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
+
+    .search-control::placeholder{
+        color: aquamarine;
+    }
+
+    .search-btn{
+        width: 55px;
+        height: 40px;
+        font-size: 1.8;
+        background-color: #F1D9B5;
+        color: aliceblue;
+        border: none;
+        border-top: inherit;
+        border-bottom: inherit;
+    }
+
+    .search-btn:hover{
+        background-color: blue;
+    }
     
     .sec1{
     

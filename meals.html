@@ -10,23 +10,30 @@
   </head>
   <body>
     
+    <div class="container">
     <nav class="home">
-        <a href="index.html"><i class="fas fa-home"></i></a>
+        <a href="index.html" class="home-icon"><i class="fas fa-home "></i></a>
     </nav>
 
-    <p>Discover your Food in any Area</p>
+    
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Discover your Food in any Area</h2>
 
-    <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+          <div class="meal-search-box"> 
+            <input type="text" class="search-content" placeholder="
+            Enter an food" id="search-input">
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="meal-result">
+          <h2 class="title">Your Meals</h2>
+        </div>
       </div>
-
-<section  class="sec2">
-<div class="fav">
- <p>Your Meals</p>
-</div>
+    </div>
 
 
 
