@@ -142,7 +142,7 @@
     color: rgb(252, 252, 250);
   }
 
-/* contry cuisimn */
+/* country cuisimn */
 .sec1 {
   background-color: #f3e6d0;
   border-bottom-left-radius: 30px;
@@ -229,11 +229,15 @@ img {
   color: rgb(252, 252, 250);
 }
 
+ /* Responsive with ipad */
+
 @media screen and (max-width: 1000px) {
 .para{
   font-size: 30px;
 }
 }
+
+/* Responsive with phone */
 
 @media screen and (max-width: 600px) {
   .countries {
