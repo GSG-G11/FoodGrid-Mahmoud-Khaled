@@ -5,6 +5,10 @@
   font-family: "Gideon Roman", cursive;
 }
 
+.logo{
+  cursor: pointer;
+}
+
 /* search meals */
 
 .search-container {
@@ -138,7 +142,7 @@
     color: rgb(252, 252, 250);
   }
 
-/* contry cuisimn */
+/* country cuisimn */
 .sec1 {
   background-color: #f3e6d0;
   border-bottom-left-radius: 30px;
@@ -163,7 +167,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 img {
@@ -224,6 +228,16 @@ img {
   border: 8px solid #f1d9b5;
   color: rgb(252, 252, 250);
 }
+
+ /* Responsive with ipad */
+
+@media screen and (max-width: 1000px) {
+.para{
+  font-size: 30px;
+}
+}
+
+/* Responsive with phone */
 
 @media screen and (max-width: 600px) {
   .countries {
