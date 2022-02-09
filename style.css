@@ -5,6 +5,10 @@
   font-family: "Gideon Roman", cursive;
 }
 
+.logo{
+  cursor: pointer;
+}
+
 /* search meals */
 
 .search-container {
@@ -163,7 +167,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 img {
@@ -223,6 +227,12 @@ img {
 .go-meals:hover {
   border: 8px solid #f1d9b5;
   color: rgb(252, 252, 250);
+}
+
+@media screen and (max-width: 1000px) {
+.para{
+  font-size: 30px;
+}
 }
 
 @media screen and (max-width: 600px) {
