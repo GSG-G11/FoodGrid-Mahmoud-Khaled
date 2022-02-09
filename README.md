@@ -30,7 +30,7 @@
 
 [Figma Link](https://www.figma.com/file/GZcrSziRXiCsikzuNISqc9/Untitled?node-id=0%3A1)
 
-## Team Members::man_in_steamy_room: 
+## Team Members: 👥
 
  [Mahmoud ALDabba](https://github.com/MahmoudJD95)
 
