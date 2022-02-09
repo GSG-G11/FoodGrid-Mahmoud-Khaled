@@ -7,7 +7,7 @@
 * alot of people need to make there traditional food and another popular food for different countries,this app for help them for get it.
 
 
-## User Story::memo: 
+# User Story::memo: 
 ###  As a user:
 
 * I can view a wide range of food cuisine for many country 
@@ -30,7 +30,7 @@
 
 [Figma Link](https://www.figma.com/file/GZcrSziRXiCsikzuNISqc9/Untitled?node-id=0%3A1)
 
-## Team Members: 👥
+# Team Members: 👥
 
  [Mahmoud ALDabba](https://github.com/MahmoudJD95)
 
