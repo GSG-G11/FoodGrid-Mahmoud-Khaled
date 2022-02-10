@@ -69,18 +69,34 @@ function search(obj) {
         const mealDiv = document.createElement("div");
         const mealImg = document.createElement("img");
         const mealTitle = document.createElement("p");
+        const recipeBtn = document.createElement("button");
 
         mealDiv.setAttribute("class", "meal");
         mealImg.setAttribute("class", "meal-photo");
         mealTitle.setAttribute("class", "meal-name");
+        recipeBtn.setAttribute("class", "get-recipe");
 
         mealsCards.appendChild(mealDiv);
         mealDiv.appendChild(mealImg);
         mealDiv.appendChild(mealTitle);
+        mealDiv.appendChild(recipeBtn);
 
         mealTitle.textContent = ele.strMeal;
         mealTitle.id = ele.idMeal;
         mealImg.src = ele.strMealThumb;
+        recipeBtn.textContent = "Get Recipe";
+
+
+        recipeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            localStorage.setItem("1", mealTitle.id);
+      
+            let recipeId = localStorage.getItem("1");
+            let recipeUrl = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeId}`;
+      
+            fetch(recipeUrl, addRecipe);
+          });
+
       }
     });
   });
