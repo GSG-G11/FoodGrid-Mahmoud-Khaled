@@ -278,7 +278,7 @@ left: 10%;
 
 .recipe {
     background-color: #f1d9b5;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   
